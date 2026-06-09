@@ -14,6 +14,19 @@ target velocity = x1 - x0
 Sampling starts from random noise and integrates the learned velocity field from
 `t=0` to `t=1`.
 
+## Example Images
+
+Training targets:
+
+![Real 64x64 butterfly training examples](assets/real_training_grid.png)
+
+Current 10-epoch sample:
+
+![Generated sample after 10 epochs](assets/sample_epoch_0010.png)
+
+The current sample is included as an early-training artifact, not a finished
+generator result. It needs longer training for recognizable butterfly structure.
+
 ## Setup
 
 ```bash
